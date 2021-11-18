@@ -1,0 +1,23 @@
+#container {
+    display: flex;
+    width: 550px;
+
+    flex-direction: row;
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    /* flex-direction: column-reverse; */
+
+    flex-wrap: nowrap;
+    /*flex-wrap: wrap;*/
+    /*flex-wrap: wrap-reverse;*/
+
+    background-color: darkorange;
+    
+}
+
+#container div {
+    width: 100px;
+    margin: 5px;
+
+    background-color: chartreuse;
+}
